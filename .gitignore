@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# --- Environment & secrets (NEVER commit real keys) ---
+.env
+.env.*
+!.env.example
+
+# --- Local data / artifacts ---
+data/
+output/
+*.db
+*.sqlite3
+*.log
+logs/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
