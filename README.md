@@ -79,7 +79,7 @@ Requirements: Python 3.11+ and [uv](https://docs.astral.sh/uv/) (or pip).
 
 ```bash
 # 1. Clone and enter
-git clone <your-repo-url> market-research-agents
+git clone [https://github.com/YKI-KMI/JASON](https://github.com/YKI-KMI/JASON) market-research-agents
 cd market-research-agents
 
 # 2. Install (uv creates .venv and locks deps from pyproject.toml/uv.lock)
